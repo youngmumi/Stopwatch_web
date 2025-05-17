@@ -64,4 +64,69 @@ font-family: 'Courier New', monospace;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
+/* ---------- 테마: 라이트 ---------- */
+body.light {
+  background: linear-gradient(135deg, #eef2f3, #8e9eab);
+  color: #222;
+}
+
+body.light #time {
+  background-color: #ffffffcc;
+  color: #222;
+}
+
+body.light .buttons button,
+body.light .theme-selector button {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+body.light button:hover {
+  background: linear-gradient(to right, #43e97b, #38f9d7);
+  transform: translateY(-2px);
+}
+
+/* ---------- 테마: 다크 ---------- */
+body.dark {
+  background: linear-gradient(135deg, #232526, #414345);
+  color: #f5f5f5;
+}
+
+body.dark #time {
+  background-color: #333333cc;
+  color: #f5f5f5;
+}
+
+body.dark .buttons button,
+body.dark .theme-selector button {
+  background: linear-gradient(to right, #555, #222);
+  color: #fff;
+}
+
+body.dark button:hover {
+  background: #444;
+  transform: translateY(-2px);
+}
+
+/* ---------- 테마: 블루 ---------- */
+body.blue {
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  color: #f0f8ff;
+}
+
+body.blue #time {
+  background-color: #1e2a38cc;
+  color: #f0f8ff;
+}
+
+body.blue .buttons button,
+body.blue .theme-selector button {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  color: white;
+}
+
+body.blue button:hover {
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  transform: translateY(-2px);
+}
 

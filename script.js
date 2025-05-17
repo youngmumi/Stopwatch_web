@@ -26,7 +26,7 @@ function start() {
   timerInterval = setInterval(() => {
     elapsedTime = Date.now() - startTime;
     printTime();
-  }, 10); // 10ms 간격으로 업데이트
+  }, 50); // 적절한 갱신 주기
 }
 
 function stop() {
@@ -39,4 +39,8 @@ function reset() {
   timerInterval = null;
   elapsedTime = 0;
   printTime();
+}
+
+function setTheme(themeName) {
+  document.body.className = themeName;
 }
